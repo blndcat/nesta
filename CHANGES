@@ -1,5 +1,9 @@
 = Unreleased
 
+ * Allow Nesta to be loaded in a Rails 5 app, by upgrading to Rack 2.
+   This also required Sinatra 2 and Tilt 2.
+   (Graham Ashton)
+
  * Port the test suite from RSpec and Webrat to Minitest and Capybara.
    (Graham Ashton)
 
